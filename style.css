@@ -1,0 +1,92 @@
+body {
+    background-color: #BE3737;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#desk1 {
+    background-image: url(Desktop-1.svg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    position: relative;
+}
+
+
+#desk2 {
+    background-image: url(Desktop-2.svg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    position: relative;
+}
+
+
+#desk3 {
+    background-image: url(Desktop-3.svg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    position: relative;
+}
+
+
+#desk4 {
+    background-image: url(Desktop-4.svg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    position: relative;
+}
+
+
+#desk5 {
+    background-image: url(Desktop-5.svg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    position: relative;
+}
+
+
+#desk6 {
+    background-image: url(Desktop-61.svg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    position: relative;
+}
+
+
+
+/*for Mobile*/
+
+@media(max-width: 700px) {
+    #desk1 {
+        background-size: contain;
+        background-color: #f0f0f0; /* Цвет фона для пустых областей */
+    }
+}
