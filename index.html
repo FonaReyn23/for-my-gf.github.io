@@ -33,25 +33,10 @@
         </script>
         
         <script>
-            // Динамическая адаптация изображений
             function adjustBackgrounds() {
                 const sections = document.querySelectorAll('.section');
                 const isMobile = window.innerWidth <= 768;
-                
-                sections.forEach(section => {
-                    // Если у вас есть отдельные мобильные версии изображений
-                    if (isMobile) {
-                        // Пример: замена desktop.svg на mobile.jpg
-                        // const currentBg = section.style.backgroundImage;
-                        // if (currentBg.includes('Desktop')) {
-                        //     const mobileBg = currentBg.replace('Desktop', 'Mobile').replace('.svg', '.jpg');
-                        //     section.style.backgroundImage = mobileBg;
-                        // }
-                    }
-                });
             }
-            
-            // Вызов при загрузке и изменении размера окна
             window.addEventListener('load', adjustBackgrounds);
             window.addEventListener('resize', adjustBackgrounds);
         </script>
